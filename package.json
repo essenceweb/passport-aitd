@@ -1,0 +1,37 @@
+{
+  "name": "passport-aitd",
+  "version": "0.1.2",
+  "description": "AITD authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "aitd",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "EWS",
+    "url": "https://essencewebsolutions.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-aitd",
+  "dependencies": {
+    "pkginfo": "0.3.x",
+    "passport-oauth": "1.0.x"
+  },
+  "devDependencies": {
+    "vows": "^0.8.3"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
